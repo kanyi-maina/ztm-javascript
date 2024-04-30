@@ -1,4 +1,17 @@
-4 + 3;
-if(4 + 3 === 7){
-    alert("You're smart");
-}
+const sayHello = () => {
+  console.log("Hello");
+};
+
+sayHello();
+
+const sayBye = () => {
+  console.log("Bye!");
+};
+
+sayBye();
+
+const multiply = (a, b) => {
+  return a * b;
+};
+
+console.log(multiply(5, 10));
