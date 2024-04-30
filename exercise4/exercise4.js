@@ -6,3 +6,4 @@ if (parseInt(age) === 18) {
 } else if (parseInt(age) > 18) {
   console.log("Powering on. Enjoy the ride!");
 }
+//Only possible on the browser due to no window element in node js
