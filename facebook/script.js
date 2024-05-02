@@ -1,9 +1,8 @@
 var database = 
   {
-    username: "Nicholas",
-    password: "mysecretword",
-  }
-;
+    Nicholas: "mysecretword",
+    Grace: "wifematerial"
+  };
 
 var newsFeed = [
   {
