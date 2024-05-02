@@ -1,8 +1,7 @@
-var database = 
-  {
-    Nicholas: "mysecretword",
-    Grace: "wifematerial"
-  };
+var database = {
+  Nicholas: "mysecretword",
+  Grace: "wifematerial",
+};
 
 var newsFeed = [
   {
@@ -19,7 +18,7 @@ var userNamePrompt = prompt("What is your name?");
 var passwordPrompt = prompt("What is your password?");
 
 const signIn = (user, pass) => {
-  if (user === database.username && pass === database.password) {
+  if (database[user] === pass) {
     console.log(newsFeed);
   } else {
     alert("Sorry, wrong password!");
