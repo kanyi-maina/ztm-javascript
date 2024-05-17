@@ -4,14 +4,14 @@ function moveCommand(direction) {
     case "forward":
       whatHappens = "You encounter a monster";
       break;
-    case "forward":
-      whatHappens = "You encounter a monster";
+    case "back":
+      whatHappens = "You found your way home";
       break;
-    case "forward":
-      whatHappens = "You encounter a monster";
+    case "right":
+      whatHappens = "You found a river";
       break;
-    case "forward":
-      whatHappens = "You encounter a monster";
+    case "left":
+      whatHappens = "You meet your one true love";
       break;
     default:
       whatHappens = "Please enter a valid direction";
