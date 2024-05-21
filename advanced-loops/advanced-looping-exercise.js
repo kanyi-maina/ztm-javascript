@@ -42,7 +42,15 @@ function biggestNumberInArray(arr) {
   return highest;
 }
 
-function biggestNumberInArray2(arr) {}
+function biggestNumberInArray2(arr) {
+  let highest = 0;
+  arr.forEach((element) => {
+    if (highest < element) {
+      highest = element;
+    }
+  });
+  return highest;
+}
 
 function biggestNumberInArray3(arr) {}
 
