@@ -52,7 +52,15 @@ function biggestNumberInArray2(arr) {
   return highest;
 }
 
-function biggestNumberInArray3(arr) {}
+function biggestNumberInArray3(arr) {
+  let highest = 0;
+  for (item of arr) {
+    if (highest < item) {
+      highest = item;
+    }
+  }
+  return highest;
+}
 
 // Question #2:
 // Write a function checkBasket() that lets you know if the item is in the basket or not
