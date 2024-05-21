@@ -1,8 +1,5 @@
-const flattened = [
-  [0, 1],
-  [2, 3],
-  [4, 5],
-].reduce((accumulator, array) => {
-  debugger;
-  return accumulator.concat(array);
-}, []);
+console.log("1");
+setTimeout(() => {
+  console.log("2");
+}, 0);
+console.log("3");
